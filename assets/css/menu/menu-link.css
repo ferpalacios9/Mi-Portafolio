@@ -1,0 +1,9 @@
+.menu__link {
+    margin-right: 1.25rem;
+    color: #464646;
+}
+
+.menu__link.contacto {
+    margin-right: 0;
+    font-weight: bold;
+}

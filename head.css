@@ -1,0 +1,19 @@
+.menu {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 2rem;
+}
+
+.head__vector {
+    margin-right: 0.5rem;
+}
+
+.menu__header {
+    display: flex;
+}
+
+.menu__title {
+    margin: auto;
+    color: #464646;
+}
