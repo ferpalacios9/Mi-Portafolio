@@ -7,6 +7,8 @@
 
 .head__vector {
     margin-right: 0.5rem;
+    max-width: 1.5rem;
+    max-height: 1.5rem;
 }
 
 .menu__header {

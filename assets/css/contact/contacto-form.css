@@ -1,0 +1,10 @@
+.formcontacto__form {
+    display: grid;
+    row-gap: 1rem;
+}
+
+.form__group {
+    position: relative;
+    color: #5757577e;
+}
+

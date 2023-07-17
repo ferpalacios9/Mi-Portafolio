@@ -1,0 +1,24 @@
+.formcontacto__boton {
+    background-color: #2A7AE4;
+    padding: 0.8rem 1rem;
+    border-width: 1px;
+    border-color: #2A7AE4;
+    color: white;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Raleway';
+    font-size: 1rem;
+}
+
+.formcontacto__boton:hover {
+    cursor: pointer;
+    background: #1a4d8f;
+    border-color: #1a4d8f;
+}
+
+.formcontacto__boton {
+    margin: 1rem 0;
+    width: 150px;
+    font-family: 'Raleway';
+    font-weight: normal;
+    font-size: 1rem;
+}

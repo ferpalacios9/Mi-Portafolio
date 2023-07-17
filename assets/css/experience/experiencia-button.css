@@ -1,0 +1,38 @@
+.experience__repo {
+    margin-right: 1rem;
+}
+
+.experiencia__boton--repo {
+    background-color: transparent;
+    padding: 0.8rem 1rem;
+    border-width: 1px;
+    border-color: #2A7AE4;
+    color: #2A7AE4;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Raleway';
+    font-size: 1rem;
+}
+
+.experiencia__boton--repo:hover {
+    cursor: pointer;
+    background: gray;
+}
+
+.experience__boton--demo {
+    background-color: #2A7AE4;
+    padding: 0.8rem 1rem;
+    border-width: 1px;
+    border-color: #2A7AE4;
+    color: white;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Raleway';
+    font-size: 1rem;
+}
+
+.experience__boton--demo:hover {
+    cursor: pointer;
+    background: #1a4d8f;
+    border-color: #1a4d8f;
+}
+
+

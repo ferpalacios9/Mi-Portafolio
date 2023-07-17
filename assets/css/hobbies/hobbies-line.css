@@ -1,0 +1,28 @@
+.hobbies__line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.hobbies__box {
+    background-color: #FFF;
+    width: 170px;
+    height: 168px;
+    color: #464646;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hobbies__box > ul{
+    margin: 55% 0 0 0;
+    padding-left: 1rem;
+}
+
+.hobbies__img {
+    height: 2rem;
+}
+
+.hobbies__name {
+    margin-top: 0.5rem;
+}

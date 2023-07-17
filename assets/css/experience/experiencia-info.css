@@ -1,0 +1,27 @@
+.experience__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.experience__info.izquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.experience__title {
+    font-weight: bold;
+    font-size: 22px;
+    color: #464646;
+    margin: 0;
+}
+
+.experience__text {
+    font-weight: normal;
+    font-size: 16px;
+    color: #464646;
+}
+

@@ -98,14 +98,16 @@ section.experience{
 
 /*Contacto*/
 
-section.formcontato{
-
+section.formcontacto{
+    width: 80%;
+    padding: 3rem 10%;
+    background-color: #EAF2FD;
 }
 
 /*footeer*/
 
 section.footer{
-   
+   text-align: center;
 }
 
 /* Vamos a desafiarnos trabajando con responsividad?

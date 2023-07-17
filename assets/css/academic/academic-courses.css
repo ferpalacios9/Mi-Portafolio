@@ -1,0 +1,25 @@
+.academic__courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.academic__courses__box {
+    width: 32%;
+}
+
+.academic__courses__list {
+    padding-left: 0;
+}
+
+.academic__courses__item__img {
+    padding: 2rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.academic__courses__item__img > img{
+    max-width: 180px;
+}
+

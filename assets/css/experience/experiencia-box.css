@@ -1,0 +1,18 @@
+.experience__box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+}
+
+.experience__box.izquierda {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+    justify-content: space-between;
+}
+
+.experience__img {
+    width: 65%;
+}
+
+
