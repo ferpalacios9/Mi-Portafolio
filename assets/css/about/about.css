@@ -7,3 +7,7 @@
     padding-right: 316px;
     color: #464646;
 }
+
+.about__paragraph {
+    line-height: 1.2;
+}
