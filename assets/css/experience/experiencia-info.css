@@ -25,3 +25,9 @@
     color: #464646;
 }
 
+@media (max-width: 768px) {
+    .experience__info, .experience__info.izquierda {
+        margin: 1rem 0 0 0;
+    }
+}
+

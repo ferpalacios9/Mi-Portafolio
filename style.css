@@ -4,31 +4,35 @@ en las secciones señaladas */
 /*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
 coloque nas sessões indicadas*/
 
-:root{
+:root {
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
-   --cor-de-fundo: #F5F5F5;
-   --cor-de-link: #000;
-   
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+
 }
 
 .todo {
-
+    
 }
 
 
 body {
     box-sizing: border-box;
-    background-color: var(--cor-de-fundo) ;
+    background-color: var(--cor-de-fundo);
     font-family: 'Raleway';
     margin: 0;
     padding: 0;
     line-height: 1;
 }
-ol, ul,li {
+
+ol,
+ul,
+li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: var(--cor-de-link);
 }
@@ -47,21 +51,21 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
 
-section.menu{
+section.menu {
     width: 80%;
     margin: 0 auto;
 }
 
 /*Sección Title*/
 
-section.title{
+section.title {
     width: 80%;
     margin: 0 auto 1.5rem;
 }
 
 /*Sección About*/
 
-section.about{
+section.about {
     width: 80%;
     padding: 2rem 10%;
     background-color: #EAF2FD;
@@ -69,21 +73,21 @@ section.about{
 
 /*Sección Knowledge*/
 
-section.knowledge{
+section.knowledge {
     width: 80%;
     margin: 0 auto;
 }
 
 /*Sección Skills*/
 
-section.skills{
+section.skills {
     width: 80%;
     margin: 0 auto;
 }
 
 /* Experiencia Académica*/
 
-section.academic{
+section.academic {
     width: 80%;
     padding: 2rem 10%;
     background-color: #EAF2FD;
@@ -91,14 +95,14 @@ section.academic{
 
 /* experiencia*/
 
-section.experience{
+section.experience {
     width: 80%;
     margin: 0 auto;
 }
 
 /*Contacto*/
 
-section.formcontacto{
+section.formcontacto {
     width: 80%;
     padding: 3rem 10%;
     background-color: #EAF2FD;
@@ -106,8 +110,8 @@ section.formcontacto{
 
 /*footeer*/
 
-section.footer{
-   text-align: center;
+section.footer {
+    text-align: center;
 }
 
 /* Vamos a desafiarnos trabajando con responsividad?
@@ -115,41 +119,52 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 
 /*Tablet*/
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
-/* Menú */
+    /* Menú */
+    .menu__list__item {
+        display: none;
+    }
 
-/*title*/
+    /*title*/
+    .title__bio {
+        font-size: 22px;
+    }
 
-/*Skills*/
+    /*Knowledge*/
 
-/*Hobbies*/
+    /*Skills*/
 
-/*Formación Académica*/
+    /*Formación Académica*/
 
-/*Experiencia Profesional*/
+    /*Experiencia Profesional*/
+
+    /*Contacto*/
+    .formcontacto__img {
+        display: none;
+    }
 
 }
 
 /*Mobile*/
 @media (min-width: 425px) {
 
-/*Menu*/
+    /*Menu*/
 
-/*Titulo*/
+    /*Titulo*/
 
-/*Sección sobre mi*/
+    /*Sección sobre mi*/
 
-/*Skills*/
+    /*Knowledge*/
 
-/*Hobbies*/
- 
-/*Formación Académica*/
+    /*Skills*/
 
-/*Experiencia Profesional*/
+    /*Formación Académica*/
 
- /*Contacto*/
+    /*Experiencia Profesional*/
+    
+    /*Contacto*/
 
-/*Footer*/
+    /*Footer*/
 
 }

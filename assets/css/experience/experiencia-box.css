@@ -15,4 +15,13 @@
     width: 65%;
 }
 
+@media (max-width: 768px) {
+    .experience__box.izquierda {
+        flex-direction: column-reverse;
+    }
+
+    .experience__img {
+        width: 100%;
+    }
+}
 

@@ -3,3 +3,9 @@
     max-height: 300px;
     border-radius: 50%;
 }
+
+@media (max-width: 768px) {
+    .title__profile {
+        max-width: 146px;
+    }
+}

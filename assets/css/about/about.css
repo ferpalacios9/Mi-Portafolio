@@ -11,3 +11,9 @@
 .about__paragraph {
     line-height: 1.2;
 }
+
+@media (max-width: 768px) {
+    .about__container {
+        padding-right: 0;
+    }
+}

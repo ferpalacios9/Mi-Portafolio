@@ -20,3 +20,13 @@
 .title__network__item {
     margin-right: 2rem;
 }
+
+@media (max-width: 768px) {
+    .title__bio {
+        font-size: 22px;
+    }
+
+    .title__subsection {
+        font-size: 1rem;
+    }
+}
