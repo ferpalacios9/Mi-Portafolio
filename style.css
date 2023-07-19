@@ -67,16 +67,16 @@ section.about{
     background-color: #EAF2FD;
 }
 
-/*Sección skills*/
+/*Sección Knowledge*/
 
-section.skills{
+section.knowledge{
     width: 80%;
     margin: 0 auto;
 }
 
-/*Sección Hobbies*/
+/*Sección Skills*/
 
-section.hobbies{
+section.skills{
     width: 80%;
     margin: 0 auto;
 }

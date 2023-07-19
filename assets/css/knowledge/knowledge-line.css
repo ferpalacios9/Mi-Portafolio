@@ -1,11 +1,10 @@
-.hobbies__line {
+.skills__line {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 3rem;
 }
 
-.hobbies__box {
+.skills__box {
     background-color: #FFF;
     width: 170px;
     height: 168px;
@@ -14,15 +13,19 @@
     margin-bottom: 1rem;
 }
 
-.hobbies__box > ul{
+.skills__box > ul{
     margin: 55% 0 0 0;
     padding-left: 1rem;
 }
 
-.hobbies__img {
+.skills__img {
     height: 2rem;
 }
 
-.hobbies__name {
+.skills__img.python__icon {
+    height: 2rem;
+}
+
+.skills__name {
     margin-top: 0.5rem;
 }

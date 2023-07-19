@@ -1,10 +1,11 @@
-.skills__line {
+.knowledge__line {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 3rem;
 }
 
-.skills__box {
+.knowledge__box {
     background-color: #FFF;
     width: 170px;
     height: 168px;
@@ -13,19 +14,15 @@
     margin-bottom: 1rem;
 }
 
-.skills__box > ul{
+.knowledge__box > ul{
     margin: 55% 0 0 0;
     padding-left: 1rem;
 }
 
-.skills__img {
+.knowledge__img {
     height: 2rem;
 }
 
-.skills__img.python__icon {
-    height: 2rem;
-}
-
-.skills__name {
+.knowledge__name {
     margin-top: 0.5rem;
 }
