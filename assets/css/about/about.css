@@ -8,6 +8,10 @@
     color: #464646;
 }
 
+.about__title {
+    font-size: 1.5rem;
+}
+
 .about__paragraph {
     line-height: 1.2;
 }
