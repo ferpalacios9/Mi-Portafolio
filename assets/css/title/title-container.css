@@ -23,10 +23,31 @@
 
 @media (max-width: 768px) {
     .title__bio {
-        font-size: 22px;
+        font-size: 22px; 
     }
 
     .title__subsection {
         font-size: 1rem;
     }
 }
+
+@media (max-width: 425px) { 
+    .title__div {
+        flex-flow: column-reverse;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .title__subsection {
+        text-align: justify;
+    }
+
+    .title__network {
+        justify-content: space-between;
+    }
+
+    .title__network__item {
+        margin-right: 0;
+    }
+}
+

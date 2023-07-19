@@ -36,3 +36,9 @@
     transform: translateY(10px);
     transition: transform .5s;
 }
+
+@media (max-width: 425px) { 
+    .formcontacto__input, .formcontacto__textarea {
+        width: 100%;
+    }
+}

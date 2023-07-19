@@ -26,3 +26,13 @@
 .skills__name {
     margin-top: 0.5rem;
 }
+
+@media (max-width: 425px) { 
+    .skills__box {
+        width: 45%;
+    }
+
+    .skills__box > ul{
+        margin: 60% 0 0 0;
+    }
+}

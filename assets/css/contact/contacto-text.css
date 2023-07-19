@@ -12,3 +12,13 @@
     font-weight: normal;
     line-height: 1.2;
 }
+
+@media (max-width: 425px) { 
+    .formcontacto__text {
+        width: 100%;
+    }
+
+    .formcontacto__subtext {
+        text-align: justify;
+    }
+}

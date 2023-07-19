@@ -15,7 +15,7 @@
 
 .knowledge__box > ul{
     margin: 55% 0 0 0;
-    padding-left: 1rem;
+    padding-left: 1rem; 
 }
 
 .knowledge__img {
@@ -28,4 +28,14 @@
 
 .knowledge__name {
     margin-top: 0.5rem;
+}
+
+@media (max-width: 425px) { 
+    .knowledge__box {
+        width: 45%;
+    }
+
+    .knowledge__box > ul{
+        margin: 60% 0 0 0;
+    }
 }
