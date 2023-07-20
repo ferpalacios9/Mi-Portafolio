@@ -10,12 +10,13 @@
 
 .title__subsection {
     font-weight: normal;
-    font-size: 19px;
+    font-size: 1.2em;
 }
 
 .title__network {
     display: flex;
     padding: 0;
+    font-size: 1.1em;
 }
 
 .title__network__item {

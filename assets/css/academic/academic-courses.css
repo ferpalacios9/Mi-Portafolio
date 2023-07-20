@@ -23,6 +23,14 @@
     max-width: 180px;
 }
 
+.academic__courses__item__title {
+    font-size: 1.2em;
+}
+
+.academic__courses__item__subtitle {
+    font-size: 1.1em;
+}
+
 @media (max-width: 768px) {
     .academic__courses__box {
         width: 100%;
