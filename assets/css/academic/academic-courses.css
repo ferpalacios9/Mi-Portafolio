@@ -23,8 +23,7 @@
     max-width: 180px;
 }
 
-
-@media (max-width: 425px) {
+@media (max-width: 768px) {
     .academic__courses__box {
         width: 100%;
     }
