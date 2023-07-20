@@ -1,3 +1,7 @@
+.knowledge {
+    padding: 2rem 0 0;
+}
+
 .knowledge__line {
     display: flex;
     flex-wrap: wrap;
