@@ -19,3 +19,17 @@
     margin: auto;
     color: #464646;
 }
+
+@media (max-width: 425px) { 
+    .head__vector {
+        display: none;
+    }
+
+    .menu__title {
+        font-size: 1rem;
+    }
+
+    .menu__list__item.mail {
+        display: initial;
+    }
+}

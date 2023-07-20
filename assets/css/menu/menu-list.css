@@ -1,3 +1,18 @@
 .menu__list {
     display: flex;
 }
+
+.menu__list__item--contacto {
+    display: none;
+}
+
+@media (max-width: 768px) { 
+    .menu__list__item--contacto {
+        display: initial;
+        padding: 0;
+    }
+
+    .menu__list {
+        padding: 0;
+    }
+}
